@@ -1,0 +1,437 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Avenir, Medium;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* auth */
+/* Container css */
+
+.small-anchor{
+  font-size: 100%;
+  color: #A3A3A3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.small-text{
+  font-size: 90%;
+  color: #A3A3A3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.MuiPaper-root-188.MuiPaper-elevation24-214.MuiPaper-rounded-189.MuiDialog-paper-319.MuiDialog-paperScrollPaper-320.MuiDialog-paperWidthSm-323.MuiDialog-paperFullWidth-327 {
+  margin-left: -30rem;
+}
+
+b {
+  border-color: white !important;
+  border-style: none !important;
+  background: white !important;
+  box-shadow: none !important;
+}
+
+input.numeric-input {
+  outline: none !important;
+  border: 0 !important;
+  margin-left: -1em !important;
+  font-size: inherit !important;
+  text-align: right !important;
+}
+
+/* Transition of textfiled labels  */
+.MuiFormLabel-root-183, .jss16 {
+  color: #A3A3A3 !important;
+}
+
+.MuiFormLabel-root-183.MuiFormLabel-focused-17, .jss16.jss17 {
+  color: rgb(175, 170, 43) !important;
+}
+
+.MuiFormLabel-root-183.MuiFormLabel-error-186, .jss16.jss19 {
+  color: #FF4141 !important;
+}
+.MuiInput-underline-194:before, .jss27 {
+  border-bottom: 1px solid #A3A3A3 !important;
+}
+
+.MuiInputAdornment-root-166, .jss166{
+  color: #A3A3A3 !important;
+}
+
+.MuiSelect-icon-156{
+  color: #A3A3A3 !important;
+}
+
+.login-btn{
+  width: 60%;
+  height: 33px;
+  font-family: Avenir, Book;
+  font-weight: bold;
+  color: #424242;
+  font-size: 16px;
+  background-color: #FAF33E;
+  display:block;
+  margin: 0 auto;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.disabled-login{
+  background-color: #9E9B3F;
+  color: #424242;
+  width: 60%;
+  height: 33px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Avenir, Book;
+  font-weight: bold;
+  margin:0 auto;
+  display:block;
+  outline: none;
+  border: none;
+}
+
+.textfield{
+  width: 100%;
+}
+
+.login-qn{
+  color: #A3A3A3;
+  text-align: center;
+}
+
+.login-link{
+  color: #FAF33E;
+}
+
+.bottom-fields{
+  margin-bottom: 25px;
+}
+
+.phone-grid{
+  margin-top: 25px !important;
+}
+.grid-container{
+  margin: 5px 0 !important;
+}
+div .react-tel-input input[type="tel"]{
+  margin-top: 10px !important;
+}
+
+.checkbox{
+  padding: 0 !important;
+}
+
+.loader{
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+/* Login page */
+
+.login-email-field{
+  margin-bottom: 25px !important;
+  width: 100%;
+}
+
+.password-link{
+  border: none;
+  background-color: #424242;
+  color: #A3A3A3;
+  font-size: 90%;
+  outline: none;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 11px;
+  padding-right: 0;
+}
+
+.reset-password{
+  margin-left: 40%;
+}
+
+.checkbox{
+  padding: 0 !important;
+}
+
+.email-field{
+  width: 100%;
+  margin-bottom: 25px !important;
+}
+
+.login-phone-grid{
+  margin-top: 5px !important;
+}
+
+/* Alert Style */
+.successMsg{
+  position: absolute;
+  font-weight: lighter;
+   color: #3CC480;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%)
+}
+
+.errorMsg{
+  position: absolute;
+  font-weight: lighter;
+   color:#FF4141;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%)
+}
+
+.forgotMsg{
+  position: absolute;
+  font-weight: lighter;
+  color: #FAF33E;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.MuiInputLabel-formControl-10 label{
+  color: #E8E8E8 !important;
+  justify-content: center !important;
+
+}
+
+.MuiInputBase-root-203, .MuiInputBase-input-46, .jss46 {
+  color: #E8E8E8 !important;
+}
+
+.bottom-actions {
+  height: 15%;
+  margin: 0 !important;
+  box-sizing: border-box;
+  justify-content: center !important;
+}
+
+.align-title-items {
+  position: relative;
+  text-align: center
+}
+
+.dialog-image{
+  width: 65%;
+  margin-top: 30px;
+  margin-left: 0
+}
+
+.dialog-footer {
+  color: #FAF33E;
+  font-size: 20px;
+  text-decoration: underline
+}
+
+.dialog-message{
+  padding-top: 30px;
+  text-align: center !important;
+  font: Avenir, Book;
+  color: #E8E8E8 !important;
+  font-size: 20px !important;
+}
+
+.dialog-warning{
+  padding-top: 10px;
+  text-align: center !important;
+  font: Avenir, Medium;
+  color: #A3A3A3 !important;
+  font-size: 18px !important;
+}
+
+.dialog-email-msg{
+  margin-top: 45px !important;
+  font: Avenir, Medium !important;
+  color:#A3A3A3 !important;
+  font-size: 17px !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.resend-link{
+  color: #FAF33E;
+  text-decoration: underline;
+}
+
+.error{
+  color: #FF4141 !important;
+}
+
+.valid{
+  color: #FAF33E !important;
+}
+
+
+/* Forgot Password Alert */
+
+.email-field{
+  padding-bottom: 25px !important;
+  width: 73% !important;
+  margin-left: 13.5% !important;
+  margin-top: 1% !important;
+}
+
+.alert-loader, .loader{
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.alert-button{
+  color: #FAF33E !important;
+}
+/* password reset */
+
+.password-icon{
+  color: #A3A3A3 !important;
+  padding: 5px !important;
+}
+
+.password-field{
+  padding-bottom: 25px !important;
+}
+
+/* select country code */
+.form-code{
+  padding-bottom: 30px !important;
+
+}
+/* tags */
+.ReactTags__tagInputField{
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.email-highlight{
+  color: #FAF33E !important;
+}
+
+.error-section{
+  margin-top: 15px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.alert-error{
+  color: #FF4141;
+  font-size: 17px;
+  font: Avenir, Book;
+  margin-left: 40px !important;
+}
+
+
+/* checkbox */
+/* label css*/
+
+.ReactTags__tag{
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 8px;
+  background-color: #424242;
+  color: #E8E8E8;
+
+}
+
+.ReactTags__remove{
+  margin-left: 8px;
+}
+
+.ReactTags__tagInput{
+  display: inline;
+  padding-left: 3px;
+}
+
+/* Fields Table */
+.fields-title{
+  font-weight: bold;
+  font-style: italic;
+  font-family: Avenir, Medium;
+  text-align: center;
+  color: rgba(60, 57, 57, 0.87)
+}
+
+.fields-table{
+  width: 107%;
+  margin-left: -0.5rem;
+}
+
+.fields-table-products {
+  width: 108%;
+  margin-left: -1.5rem;
+}
+
+.or {
+  color: #7f7d7d;
+}
+
+.fields-tr{
+  margin-left: 25%;
+}
+
+.required-field{
+  margin-left: 25%;
+  padding: 2% 0;
+  line-height: 25px;
+}
+
+.required-field li{
+  list-style-type: none;
+  color: #7f7d7d;
+  font-size: 14px;
+}
+
+.required-field div{
+  font-size: 17px;
+}
+
+.required-field span{
+  color: #702632;
+  font-size: 14px;
+}
+
+.required-field-name{
+  color: #424242;
+}
+
+tr.fields-tr {
+  vertical-align: initial;
+}
+
+/* svg.MuiSvgIcon-root-143 {
+  margin-left: -0.5rem;
+} */
+
+.supplierStar {
+  margin-right: 15px;
+  width: 28px !important;
+  height: 27px !important
+}
+
+/* Sales charts */
+
+.tooltipBox {
+  position: relative;
+  background: #F6F041;
+  color: rgb(88, 87, 87);
+  font-size: 10px;
+  font-family: 'Avenir, Arial, sans-serif';
+  border: 2px solid #F6F041;
+  padding: .05rem .8rem;
+  text-align: center;
+}
+
+.tooltipTime {
+  color: rgb(153, 153, 153);
+}
+
+

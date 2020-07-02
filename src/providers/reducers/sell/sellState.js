@@ -1,0 +1,33 @@
+const sell = {
+  preferredProducts: [],
+  selectedProduct: {},
+  batchesForCart: [],
+  currency: '₦',
+  cart: [],
+  openSalesBatchDialog: false,
+  cartItemNoteEl: {},
+  clickedCartItem: {},
+  openNotePopper: false,
+  openDiscountPopper: false,
+  discountEl: {},
+  discount: 0,
+  mainCartNote: '',
+  openPaymentDialog: false,
+  totalToPay: '',
+  salesOnHold: [],
+  openHoldSaleDialog: false,
+  openSalesOnHoldDialog: false,
+  filteredCustomers: [],
+  searching: false,
+  customerAnchorEl: {},
+  openCustomerPopper: false,
+  customerFetchError: false,
+  placement: '',
+  name: '',
+  sellingOutOfStock: false,
+  openOutOfStockPopper: false,
+  outOfStockEl: {},
+  outOfStockPopperParams: {}
+};
+
+export default sell;

@@ -1,0 +1,62 @@
+$black: #424242;
+$black-light: #808080;
+$black-lighter: #a7a6a6;
+$background-grey: #E8E8E8;
+
+div {
+  &.progress {
+    color: $black-lighter;
+    margin: .8rem;
+  }
+
+  &.dialog {
+    max-width: 60vw;
+    max-height: 80vh;
+    margin: auto;
+      
+    &-title-2 {
+      padding: 1rem 2rem;
+    }
+
+    &-content-2 {
+      padding: 1.2rem 2rem;
+      background-color: $background-grey;
+
+      &__paper {
+        padding: .5rem 2rem;
+        box-shadow: 1px 1px 1px rgba($black, 0.2);
+
+        &:not(:last-child) {
+          margin-bottom: .3rem;
+        }
+      }
+    }
+  }
+
+}
+
+h5 {
+  &.title {
+    font-weight: 700;
+    color: $black;
+  }
+}
+
+h6 {
+  &.subtitle {
+    color: $black-light;
+  }
+}
+
+button {
+  &.close {
+    margin-left: 3rem;
+  }
+}
+
+span {
+  &.dialog-caption {
+    color: $black-lighter;
+    margin-top: 5px;
+  }
+}

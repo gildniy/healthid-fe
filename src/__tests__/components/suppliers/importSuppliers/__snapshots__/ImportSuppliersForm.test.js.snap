@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render ImportSuppliersForm component should render the ImportSuppliersForm component properly 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Paper))
+    elevation={2}
+    style={
+      Object {
+        "marginLeft": "15%",
+        "width": "70%",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={3}
+      style={
+        Object {
+          "marginBottom": "2%",
+          "marginLeft": "5%",
+          "width": "90%",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        style={
+          Object {
+            "color": "rgba(60, 57, 57, 0.87)",
+            "fontSize": "20px",
+            "fontWeight": "bold",
+            "marginLeft": "36%",
+            "marginTop": "1%",
+          }
+        }
+        xs={12}
+      >
+        <div>
+          Import Supplier CSV
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <hr
+          style={
+            Object {
+              "border": "0px",
+              "marginBottom": "0.7em",
+              "marginLeft": "-1.5rem",
+            }
+          }
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <div
+          style={
+            Object {
+              "color": "#7f7d7d",
+              "fontSize": "20px",
+              "margin": "2% auto",
+              "width": "48%",
+            }
+          }
+        >
+          Download sample template to import suppliers
+        </div>
+        <div
+          style={
+            Object {
+              "margin": "0 auto",
+              "marginBottom": "2%",
+              "marginTop": "2%",
+              "width": "27%",
+            }
+          }
+        >
+          <WithStyles(ForwardRef(Button))
+            disabled={false}
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#424242",
+                "borderRadius": "15px",
+                "color": "#FFFFFF",
+                "marginLeft": "-1.5rem",
+                "marginTop": "20px",
+                "padding": "10px 25px 10px 25px",
+                "width": "120%",
+              }
+            }
+          >
+            DOWNLOAD SAMPLE TEMPLATE
+          </WithStyles(ForwardRef(Button))>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Separator />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <FieldsTable />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Paper))>
+  <UploadFileComponent
+    handleFile={[Function]}
+    onDrop={[Function]}
+  />
+</Fragment>
+`;

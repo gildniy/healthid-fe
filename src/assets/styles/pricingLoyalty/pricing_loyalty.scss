@@ -1,0 +1,172 @@
+$color-black: #424242;
+$color-black-2: #626262;
+$color-black-light: #808080;
+$color-black-lighter: #a7a6a6;
+$color-background-grey: #E8E8E8;
+
+div {
+  &.pricing-popper {
+    width: 28rem;
+
+    &__header-grid {
+      padding: .3rem 1rem;
+    }
+
+    &__body-grid {
+      margin: 1rem;
+    }
+
+    &__paper-grid {
+      margin: 0 auto;
+    }
+
+    &__edits {
+      margin: 1.1rem 0 .8rem;
+    }
+
+    &__loyalty {
+      margin: 1.1rem 0;
+    }
+
+    &__paper2 {
+      padding: .5rem .8rem;
+      box-shadow: .1rem .1rem .2rem rgba($color-black, .3);
+    }
+
+    &__icons-wrapper {
+      width: 1rem
+    }
+
+    &__input {
+      margin-left: 1.5rem;
+      justify-content: center;
+      background-color: $color-background-grey;
+      font-size: .85rem;
+      text-align: right;
+      padding-right: .5rem;
+      color: $color-black-2;
+    }
+
+    &__markup {
+      margin-left: 1rem;
+      justify-content: center;
+      font-size: .85rem;
+      text-align: right;
+      padding-right: .4rem;
+      width: 3rem;
+      color: $color-black-2;
+    }
+  }
+
+  &.pricing {
+    width: 6rem;
+  }
+
+  &.loyalty {
+    width: 4.5rem;
+  }
+
+  &.half-opacity {
+    opacity: .5;
+  }
+
+  &.tool-bar {
+    &__main {
+      background: #e4e4e4;
+    }
+  }
+
+  &.progress {
+    color: $color-black-lighter;
+    margin: 0;
+  }
+
+  &.progress-wrapper {
+    padding-top: 4.6px;
+    padding-right: 4px;
+  }
+}
+
+.label svg {
+  width: 1rem;
+}
+
+button {
+  &.popper-btn {
+    padding: .4rem
+  }
+
+  &.btn-close {
+    margin-left: 1rem;
+  }
+
+  &.pricing-popper {
+    &__icon-btn {
+      padding: 0;
+      background: none;
+
+      &:hover {
+        background: none;
+      }
+    }
+  }
+}
+
+span, p {
+  &.pricing-popper {
+    &__header-1 {
+      color: $color-black;
+    }
+
+    &__text {
+      color: $color-black-lighter;
+      font-size: .7rem;
+
+      &--main {
+        color: $color-black;
+      }
+    }
+
+    &__radio {
+      padding: 0;
+
+      & span svg {
+        width: 1rem;
+      }
+    }
+  }
+
+  &.markup-rd {
+    margin-bottom: .4rem;
+  }
+
+  &.markup-typo {
+    margin-top: .1rem;
+    margin-left: .5rem;
+  }
+
+  &.price-typo {
+    margin-top: .3rem;
+    margin-left: .5rem;
+  }
+
+  &.loyalty-typo {
+    margin-top: .3rem;
+  }
+}
+
+.header-2 {
+  padding-top: 1rem;
+}
+
+hr {
+  &.pricing-popper__divider {
+    width: 100%;
+  }
+
+  &.adornment-divider {
+    width: 1px;
+    height: 1.5rem;
+    background-color: $color-black-lighter;
+  }
+}

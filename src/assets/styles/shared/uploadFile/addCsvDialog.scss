@@ -1,0 +1,52 @@
+div {
+  &.dialog-title {
+  padding: .8rem;
+  text-align: center;
+  }
+
+  &.dialog-content {
+    padding: 2rem 0;
+  }
+
+  &.file-submit {
+    margin: 1.5rem 0
+  }
+}
+button.file-button {
+  margin: 1rem 0 0;
+  border-radius: 8px;
+  color: #939393;
+  border: 1px solid #939393;
+  text-transform: inherit;
+  width: 20%;
+  padding: 2px;
+}
+.text {
+  font-weight: lighter;
+  color: #939393;
+  margin: .5rem 0;
+  &_or {
+    color: #939393;
+  }
+}
+button.submit-button {
+  border-radius: 8px;
+  color: #424242;
+  font-weight: bold;
+  padding: .2rem 1rem;
+}
+.file-text{
+  font-size: 1.17em;
+  font-weight: lighter;
+  color: #939393;
+  .file-name{
+    font-weight: bold;
+    color: #424242;
+  }
+};
+.file-span{
+  font-size: 0.85em;
+  font-weight: lighter;
+  color: #939393;
+  margin-left: 1%;
+};

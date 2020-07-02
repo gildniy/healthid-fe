@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SupplierInformation should render the SupplierInformation component properly 1`] = `
+<Fragment>
+  <div>
+    <WithStyles(ForwardRef(Typography))
+      align="left"
+      gutterBottom={true}
+      paragraph={true}
+    >
+      Supplier Information
+    </WithStyles(ForwardRef(Typography))>
+  </div>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={24}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={4}
+    >
+      <FieldTitle
+        changed={false}
+        classes={Object {}}
+        title="Tier"
+      />
+      <Render
+        name="tier"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={4}
+    >
+      <FieldTitle
+        changed={false}
+        classes={Object {}}
+        title="Payment Terms"
+      />
+      <Render
+        name="paymentTerms"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={4}
+    >
+      <FieldTitle
+        changed={false}
+        classes={Object {}}
+        title="Credit Days"
+      />
+      <Render
+        name="creditDays"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Fragment>
+`;

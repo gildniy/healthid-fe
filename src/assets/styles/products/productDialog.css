@@ -1,0 +1,85 @@
+.table-responsive{
+    width: 850px;
+}
+.table-responsive th{
+    height: 60px;
+    position: relative;
+    color: #424242;
+    background: #fff;
+    border:none!important;
+    
+}
+.duplicate-form{
+    width: 900px;
+}
+
+.duplicate-title{
+    position: fixed;
+    width: 900px;
+    margin-left: -2.8rem;
+    margin-top: 12.3px;
+    padding-bottom: 15px;
+    padding-top: 8px;
+    z-index: 500;
+}
+.cell{
+    background: #E8E8E8!important;
+}
+.th-title{
+    font-size: 20px;
+    font-weight: normal;
+}
+.th-action{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding-right: 20px;
+}
+
+.th-action img{
+    width: 20px;
+}
+.actions{
+    cursor: pointer;
+}
+.actions button, .btns button{
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+.t-row{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid #e8e8e8;
+    display: grid;
+    align-items: center;
+    height: 60px;
+    position: relative;
+}
+.Taction{
+    grid-template-columns: 1fr 1fr;
+}
+.btns button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns button:hover{
+    background: #e8e8e8;
+    border-radius: 100%;
+}
+
+svg.MuiSvgIcon-root-143.paginationIcons {
+    width: 0.4em;
+}

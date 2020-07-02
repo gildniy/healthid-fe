@@ -1,0 +1,212 @@
+.top-level {
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 35px;
+  .login-label {
+    color: #757575;
+    width: 35%;
+  }
+  .login-switch {
+    color: #a3a3a3;
+    width: 29%;
+  }
+  .email-label {
+    color: #757575;
+    padding-left: 4%;
+    width: 20%;
+    border-bottom: 2px solid #424242;
+    cursor: pointer;
+    padding-bottom: 5px;
+    outline: none;
+    &--active {
+      color: #faf33e;
+      padding-left: 4%;
+      width: 20%;
+      border-bottom: 2px solid #faf33e;
+      padding-bottom: 5px;
+      outline: none;
+    }
+  }
+
+  .switch-email-label {
+    color: #a3a3a3;
+    padding-left: 4%;
+    padding-right: 3%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #424242;
+    cursor: pointer;
+    &--active {
+      color: #faf33e;
+      padding-left: 4%;
+      padding-right: 3%;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #faf33e;
+      cursor: pointer;
+    }
+    &--active:focus {
+      outline: none;
+    }
+  }
+
+  .separator {
+    width: 20%;
+  }
+  .separator-switch {
+    width: 20px;
+  }
+
+  .phone-label {
+    color: #757575;
+    border-bottom: 2px solid #424242;
+    padding-left: 6%;
+    width: 40%;
+    cursor: pointer;
+    padding-bottom: 5px;
+    outline: none;
+    &--active {
+      color: #faf33e;
+      padding-left: 6%;
+      width: 40%;
+      border-bottom: 2px solid #faf33e;
+      padding-bottom: 5px;
+      outline: none;
+    }
+  }
+
+  .switch-phone-label {
+    color: #a3a3a3;
+    border-bottom: 2px solid #424242;
+    padding-left: 3%;
+    padding-right: 3%;
+    cursor: pointer;
+    &--active {
+      color: #faf33e;
+      border-bottom: 2px solid #faf33e;
+      padding-left: 3%;
+      padding-right: 3%;
+      cursor: pointer;
+    }
+    &--active:focus {
+      outline: none;
+    }
+  }
+}
+
+.phone-input{
+  margin-bottom: 1.75rem;
+}
+
+.MuiInput-underline-29:hover:not(.MuiInput-disabled-28):not(.MuiInput-focused-27):not(.MuiInput-error-30):before,
+.MuiInput-underline-29:before {
+  border-bottom: unset !important;
+}
+
+.form-checks{
+  display: inline-flex;
+  margin-bottom: 25px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.check-container {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: #424242;
+  border: 1px solid rgb(107, 107, 107);
+}
+
+/* yellow border after checking */
+.check-container input:checked ~ .checkmark {
+  border: 0.2px solid #FAF33E;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.check-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.check-container .checkmark:after {
+  left: 8px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: 0.2px solid #FAF33E;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.bottom-section{
+  margin-top: 25px;
+}
+
+.loader{
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.register-btn{
+  width: 46%;
+  height: 40px;
+  font-family: Avenir, Book;
+  font-weight: bold;
+  color: #424242;
+  font-size: 18px;
+  background-color: #FAF33E;
+  border-radius: 4px;
+  display:block;
+  margin: 0 auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.disabled-register{
+  background-color: #9E9B3F;
+  border-radius: 4px;
+  color: #424242;
+  width: 46%;
+  height: 40px;
+  font-size: 18px;
+  font-family: Avenir, Book;
+  font-weight: bold;
+  margin:0 auto;
+  display:block;
+  outline: none;
+  border: none;
+}

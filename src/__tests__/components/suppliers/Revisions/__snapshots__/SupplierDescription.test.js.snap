@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SupplierDescription should render the SupplierDescription component properly 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={24}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        spacing={24}
+        xs={8}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          xs={12}
+        >
+          <div
+            style={
+              Object {
+                "marginBottom": "30px",
+              }
+            }
+          >
+            <FieldTitle
+              changed={true}
+              classes={Object {}}
+              title="Supplier ID"
+            />
+            <div
+              style={
+                Object {
+                  "marginTop": "5px",
+                }
+              }
+            >
+              <span>
+                AlphaX
+              </span>
+            </div>
+          </div>
+          <div>
+            <FieldTitle
+              changed={false}
+              classes={Object {}}
+              title="Address"
+            />
+            <Render
+              name="addressLine1"
+            />
+            <Render
+              name="addressLine2"
+            />
+            <Render
+              name="lga"
+            />
+            <Render
+              name="city_country"
+            />
+          </div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={4}
+      >
+        <WithStyles(ForwardRef(Card))
+          elevation={0}
+        >
+          <WithStyles(ForwardRef(CardMedia))
+            image="x"
+            title="Supplier Image"
+          />
+        </WithStyles(ForwardRef(Card))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={24}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={4}
+    >
+      <FieldTitle
+        changed={false}
+        classes={Object {}}
+        title="Email"
+      />
+      <Render
+        name="email"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={4}
+    >
+      <FieldTitle
+        changed={false}
+        classes={Object {}}
+        title="Mobile #"
+      />
+      <Render
+        name="mobileNumber"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+      xs={4}
+    >
+      <Rating
+        rating={5}
+        starClass="supplierStar"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</Fragment>
+`;

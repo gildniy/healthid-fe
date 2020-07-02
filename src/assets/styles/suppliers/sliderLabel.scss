@@ -1,0 +1,79 @@
+.input-range--disabled .input-range__track {
+  background: #eeeeee;
+  height: 0.5rem;
+  opacity: 0;
+}
+
+.input-range .input-range__track {
+  height: 0.5rem;
+}
+
+.input-range .input-range__track--active {
+  background: #938c08;
+  height: 0.5rem;
+}
+
+.sliderLabel {
+  background-color: #938c08;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 0.5rem 0rem 0rem 0rem;
+  line-height: 100%;
+  margin-top: -3.7rem;
+  margin-left: 12rem;
+}
+
+.InputRangeClassNames {
+  height: 5rem;
+}
+
+.inputSlider {
+  margin-top: 10rem;
+}
+
+.breakpoints {
+  height: 0.2rem;
+  margin-top: 0.9rem;
+  font-size: 0.7rem;
+  letter-spacing: 0;
+  color: #424242;
+  opacity: 1;
+
+  .fbreack {
+    margin-left: -0.2rem;
+  }
+
+  .sbreak {
+    margin-left: 8rem;
+  }
+
+  .tbreak {
+    margin-left: 10rem;
+  }
+
+  .fbreak {
+    margin-left: 8.8rem;
+  }
+}
+
+.breakpoint {
+  height: 0.2rem;
+  font-size: 0.7rem;
+  color: #E4E4E4;
+
+  .sbreak {
+    margin-left: 15.5rem;
+  }
+
+  .tbreak {
+    margin-left: 14.2rem;
+  }
+
+  .fbreak {
+    margin-left: 15.4rem;
+  }
+}

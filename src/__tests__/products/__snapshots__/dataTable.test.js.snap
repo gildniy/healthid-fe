@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products DataTable when rendering it should render without crushing 1`] = `
+<div>
+  <WithStyles(ForwardRef(Paper))
+    elevation={2}
+    square={true}
+  >
+    <TableToolBar
+      currentPath=""
+      handleClickDeselectAll={[Function]}
+      handleClickInverseSelection={[Function]}
+      handleEdit={[Function]}
+      handleSearch={[MockFunction]}
+      handleViewProposed={[MockFunction]}
+      name="toolbar"
+      numSelected={0}
+      title="Test Products Table"
+    />
+    <div>
+      <WithStyles(ForwardRef(Table))
+        aria-labelledby="tableTitle"
+      >
+        <WithStyles(TableHeader)
+          headRows={
+            Array [
+              "id",
+              "product name",
+              "sku",
+            ]
+          }
+          numSelected={0}
+          onRequestSort={[Function]}
+          onSelectAllClick={[Function]}
+          order="asc"
+          orderBy="name"
+          rowCount={2}
+        />
+        <WithStyles(ForwardRef(TableBody))>
+          <WithStyles(ForwardRef(TableRow))
+            aria-checked={false}
+            key="1"
+            onClick={[Function]}
+            role="checkbox"
+            selected={false}
+            tabIndex={-1}
+          >
+            <WithStyles(ForwardRef(TableCell))
+              align="center"
+              padding="checkbox"
+            >
+              <WithStyles(CustomCheckbox)
+                checked={false}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "marginLeft": "1.2rem",
+                  }
+                }
+              />
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              <span>
+                Panadol
+              </span>
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              000261
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              <span />
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              <span>
+                <Component />
+              </span>
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              <span>
+                <Component />
+              </span>
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              Stans
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              Stans
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              85
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              408
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              5
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              <Component />
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              <Component />
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              2019-08-13
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+          </WithStyles(ForwardRef(TableRow))>
+          <WithStyles(ForwardRef(TableRow))
+            aria-checked={false}
+            key="2"
+            onClick={[Function]}
+            role="checkbox"
+            selected={false}
+            tabIndex={-1}
+          >
+            <WithStyles(ForwardRef(TableCell))
+              align="center"
+              padding="checkbox"
+            >
+              <WithStyles(CustomCheckbox)
+                checked={false}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "marginLeft": "1.2rem",
+                  }
+                }
+              />
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              <span />
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              <span />
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              <span />
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            >
+              <span />
+            </WithStyles(ForwardRef(TableCell))>
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+            <WithStyles(ForwardRef(TableCell))
+              align="left"
+            />
+          </WithStyles(ForwardRef(TableRow))>
+        </WithStyles(ForwardRef(TableBody))>
+      </WithStyles(ForwardRef(Table))>
+    </div>
+    <WithStyles(ForwardRef(TablePagination))
+      backIconButtonProps={
+        Object {
+          "aria-label": "Previous Page",
+        }
+      }
+      component="div"
+      count={[MockFunction]}
+      nextIconButtonProps={
+        Object {
+          "aria-label": "Next Page",
+        }
+      }
+      onChangePage={[MockFunction]}
+      onChangeRowsPerPage={[MockFunction]}
+      page={2}
+      rowsPerPage={[MockFunction]}
+      rowsPerPageOptions={
+        Array [
+          50,
+          100,
+          250,
+          500,
+        ]
+      }
+    />
+  </WithStyles(ForwardRef(Paper))>
+</div>
+`;
